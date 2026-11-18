@@ -1,0 +1,33 @@
+{
+  "image_size": 8,
+  "patch_size": 2,
+  "num_patches": 16,
+  "train_pixel_divisor": 16.0,
+  "upload_pixel_divisor": 255.0,
+  "classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seed": 42,
+  "cnn_config": {
+    "c1": 16,
+    "c2": 32,
+    "hidden": 64,
+    "dropout": 0.25
+  },
+  "vit_config": {
+    "d_model": 64,
+    "heads": 4,
+    "layers": 2,
+    "ff": 128,
+    "dropout": 0.1
+  }
+}
